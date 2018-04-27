@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { render } from "react-dom";
 import logo from './logo.svg';
 import './App.css';
+import Wizard from "./Wizard";
+import { FieldControl, Validators } from "react-reactive-form";
+import styles from "./styles";
 
 class App extends Component {
   render() {
